@@ -1,0 +1,325 @@
+Datafeed All available methods : sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetEvents/ sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetLiveEvents/ sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetMarkets/ sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetEventsMarkets/ sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetEventDetails/ sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetMarketTypes/ sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetSports/ sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetCategories/ sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetChamps/    For example, if we want to find 1x2 market for Barcelona vs. Espanyol for skinid= Sportaza :  Step 1: We use the GetEvent method to get all the events for the date that we have set : https://sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetEvents/XML?integration=librabet&langId=8&startDate=2021-11-20&endDate=2021-11-22  integration= librabet (the list of all available skinids for brands can be found below) langid= 8 (English for our example, the list of all available language IDs can be found below) startDate=YYYY-MM-DD (if not provided, current day’s date will be used) endDate=YYYY-MM-DD (if not provided, current day’s date +1 will be used)  Using this link and get event method, I find the event Barcelona vs. Espanyol and get the eventID :    Step 2 : We use the GetMarkets method to get all available markets for event Barcelona vs. Espanyol :  https://sb2datafeedexport-altenar2.biahosted.com/api/DataFeedExport/GetMarkets/XML?integration=librabet&langId=8&eventId=5018582     Sport IDs :   
+Sport id
+Sport name
+66
+Soccer
+67
+Basketball
+68
+Tennis
+69
+Volleyball
+70
+Ice Hockey
+71
+Boxing
+72
+Badminton
+73
+Handball
+74
+Cricket
+75
+American Football
+76
+Baseball
+77
+Table Tennis
+78
+Darts
+79
+Bandy
+80
+Floorball
+81
+Snooker
+82
+Beach Volley
+83
+Waterpolo
+84
+MMA
+85
+Golf
+86
+Curling
+87
+Squash
+88
+Futsal
+89
+Cycling
+90
+Specials
+91
+Ski Jumping
+92
+Alpine Skiing
+93
+Biathlon
+94
+Beach Soccer
+96
+E-Sports
+101
+Rugby League
+102
+Rugby Union
+103
+Motorsport
+104
+Skiing
+105
+3x3 Basketball
+106
+Aussie Rules
+107
+Field Hockey
+108
+Bowls
+109
+Pesapallo
+110
+Athletics
+111
+Sailing
+112
+Football VR
+113
+Basketball VR
+114
+Rocket League
+116
+Gaelic Football
+117
+Gaelic Hurling
+118
+Cross Country
+119
+Nordic Combined
+123
+Softball
+125
+Olympics
+126
+Swimming
+127
+Equestrian
+128
+Skateboarding
+129
+Surfing
+130
+Rowing
+131
+Triathlon
+132
+Weightlifting
+133
+Marathon Swimming
+134
+Tennis VR
+135
+Canoeing
+136
+Taekwondo
+137
+Diving
+138
+Wrestling
+139
+Gymnastics
+140
+Shooting
+141
+Judo
+142
+Modern Pentathlon
+145
+E-sports +
+146
+E-Football
+147
+E-Basketball
+148
+E-Ice Hockey
+     Skin IDs : jogototal
+malinacasino
+casinia
+wazamba
+luckyelektra
+sportaza
+campobet
+casinoly
+powbet
+excitewin
+librabet
+casinounlimited
+playzilla
+zulabet
+betinia
+nomini
+rabona
+fezbet
+lightcasino
+cazimbo
+ohmyspins
+
+  Lang IDs :
+Code
+Culture
+Name
+LanguageId
+ar
+ar-AR
+Arabic
+58
+az
+az-AZ
+Azerbaijan
+69
+br
+pt-BR
+Brazilian
+79
+bg
+bg-BG
+Bulgarian
+6
+ca
+en-CA
+Canadian
+86
+zh
+zh-CN
+Chinese
+40
+hr
+hr-HR
+Croatian
+59
+da
+da-DK
+Danish
+12
+nl
+nl-NL
+Dutch
+51
+en
+en-GB
+English
+8
+et
+et-EE
+Estonian
+81
+fa
+fa-IR
+Farsi
+38
+fi
+fi-FI
+Finnish
+63
+fr
+fr-FR
+French
+39
+ka
+ka-GE
+Georgia
+17
+de
+de-DE
+German
+36
+el
+el-GR
+Greek
+3
+hu
+hu-HU
+Hungarian
+5
+hi
+hi-IN
+Indian
+83
+aq
+ar-IQ
+Iraqi Arabic
+74
+it
+it-IT
+Italian
+2
+ja
+ja-JP
+Japanese
+65
+ko
+ko-KR
+Korean
+37
+ky
+ky-KY
+Kurdish
+68
+lv
+lv-LV
+Latvian
+60
+lt
+lt-LT
+Lithouanian
+88
+mg
+mg-MG
+Malagasy
+64
+mk
+mk-MK
+N. Macedonian
+75
+no
+no-NO
+Norwegian
+66
+pl
+pl-PL
+Polish
+67
+pt
+pt-PT
+Portuguese
+13
+ro
+ro-RO
+Romanian
+7
+ru
+ru-RU
+Russian
+9
+sr
+sr-RS
+Serbian
+82
+sk
+sk-SK
+Slovakian
+87
+es
+es-ES
+Spanish
+4
+sv
+sv-SE
+Swedish
+41
+tr
+tr-TR
+Turkish
+15
+
