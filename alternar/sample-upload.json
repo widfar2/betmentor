@@ -1,0 +1,465 @@
+[
+  {
+    "headers": {
+      "host": "n8n-ai-dev-webhook.insystems.io",
+      "x-forwarded-for": "74.221.138.175,192.168.133.128",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+      "accept": "*/*",
+      "cf-ray": "a2a7e5d7ac7ced16-MXP",
+      "sec-fetch-site": "cross-site",
+      "content-length": "7017",
+      "referer": "http://localhost:3000/",
+      "priority": "u=1, i",
+      "sec-fetch-mode": "cors",
+      "accept-language": "en-US,en;q=0.9,it;q=0.8",
+      "sec-ch-ua-mobile": "?0",
+      "origin": "http://localhost:3000",
+      "accept-encoding": "gzip, br",
+      "sec-fetch-dest": "empty",
+      "content-type": "application/json",
+      "cdn-loop": "cloudflare; loops=1",
+      "cf-connecting-ip": "74.221.138.175",
+      "cf-ipcountry": "IT",
+      "cf-visitor": "{\"scheme\":\"https\"}",
+      "x-forwarded-proto": "https",
+      "x-envoy-external-address": "74.221.138.175",
+      "x-request-id": "cece6afa-d0d9-45f3-890f-d81ac7a098bc",
+      "x-envoy-peer-metadata-id": "router~192.168.73.195~istio-ingressgateway-webhook-78786db884-948cp.istio-system~istio-system.svc.cluster.local",
+      "x-envoy-peer-metadata": "ChoKCkNMVVNURVJfSUQSDBoKS3ViZXJuZXRlcwqhAQoGTEFCRUxTEpYBKpMBCh0KA2FwcBIWGhRpc3Rpby1pbmdyZXNzZ2F0ZXdheQpBCh9zZXJ2aWNlLmlzdGlvLmlvL2Nhbm9uaWNhbC1uYW1lEh4aHGlzdGlvLWluZ3Jlc3NnYXRld2F5LXdlYmhvb2sKLwojc2VydmljZS5pc3Rpby5pby9jYW5vbmljYWwtcmV2aXNpb24SCBoGbGF0ZXN0CjcKBE5BTUUSLxotaXN0aW8taW5ncmVzc2dhdGV3YXktd2ViaG9vay03ODc4NmRiODg0LTk0OGNwChsKCU5BTUVTUEFDRRIOGgxpc3Rpby1zeXN0ZW0KZQoFT1dORVISXBpaa3ViZXJuZXRlczovL2FwaXMvYXBwcy92MS9uYW1lc3BhY2VzL2lzdGlvLXN5c3RlbS9kZXBsb3ltZW50cy9pc3Rpby1pbmdyZXNzZ2F0ZXdheS13ZWJob29rCi8KDVdPUktMT0FEX05BTUUSHhocaXN0aW8taW5ncmVzc2dhdGV3YXktd2ViaG9vaw==",
+      "x-envoy-expected-rq-timeout-ms": "10000",
+      "x-envoy-attempt-count": "1"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "chatId": "11916594422314441312",
+      "name": "ndjsn",
+      "energy": 80,
+      "buddyName": "Fabrizio",
+      "maxAnswerLength": 20,
+      "currentUrl": "https://localhost:1234/en/casino",
+      "currentPageName": "",
+      "messageBufferDelayMs": 4000,
+      "pageChangeActionTimerMs": 2500,
+      "splitMessageDelayMinMs": 1200,
+      "splitMessageDelayMaxMs": 2800,
+      "playerData": {
+        "accountInfo": {
+          "account_id": 15183173,
+          "balance": 36.27,
+          "gamificationLevel": {
+            "level": 1,
+            "experience": 0,
+            "experienceToNextLvl": 0,
+            "completedLevelInPercent": 0,
+            "nextLevel": 0
+          },
+          "bonus": {
+            "casino": {
+              "sum": 10,
+              "rollover": 2.2999999999999545,
+              "rollover_init": 700,
+              "rollover_pct": 0
+            },
+            "sport": {
+              "sum": 0,
+              "rollover": 0,
+              "rollover_init": 0,
+              "rollover_pct": 0
+            },
+            "freespin": {
+              "rounds": 0,
+              "rounds_played": 0
+            }
+          },
+          "created": "2025-05-08 09:10:31",
+          "created_ts": 1746695431000,
+          "country": "FI",
+          "currency": "EUR",
+          "language": "en",
+          "prefix": "BTN_",
+          "guid": "4ae7ef38-2bec-11f0-89a3-84160c12a51f",
+          "login": "EGORSTG118",
+          "phone": "41215303118",
+          "email": "s**************8@emailsreg.com",
+          "profile": {
+            "city": "asdskm",
+            "name": "ndjsn",
+            "gender": "M",
+            "address": "mkdsmd",
+            "surname": "ndjsnd",
+            "birthday": "2007-05-02",
+            "postcode": "msdk",
+            "is_fdb_made": true,
+            "trigger_codes": "casino-welcome-bonus",
+            "is_first_deposit_made": false,
+            "is_trusted": false,
+            "is_registered_with_bank_id": false,
+            "achievements": {
+              "earned": 1,
+              "total": 61,
+              "ready_to_earn": 6,
+              "by_categories": {
+                "colossus": {
+                  "earned": 0,
+                  "ready_to_earn": 0,
+                  "total": 3
+                },
+                "general": {
+                  "earned": 0,
+                  "ready_to_earn": 6,
+                  "total": 35
+                },
+                "sport_weekly_composite": {
+                  "earned": 0,
+                  "ready_to_earn": 0,
+                  "total": 1
+                },
+                "sport_challenges": {
+                  "earned": 0,
+                  "ready_to_earn": 0,
+                  "total": 10
+                },
+                "casino_weekly_composite": {
+                  "earned": 0,
+                  "ready_to_earn": 0,
+                  "total": 1
+                },
+                "casino_challenges": {
+                  "earned": 0,
+                  "ready_to_earn": 0,
+                  "total": 10
+                },
+                "registration": {
+                  "earned": 1,
+                  "ready_to_earn": 0,
+                  "total": 1
+                }
+              }
+            }
+          },
+          "level": 1,
+          "level_label": "bronze",
+          "level_pct": 0,
+          "loyalty": 0,
+          "level_info": {
+            "name": "Beginner",
+            "image": "/dimg/level/qBUmw1N5l0X3FE.png",
+            "exchange": 0.01,
+            "rate": "100:1",
+            "currency": "EUR",
+            "limit_per_month": "€7,000"
+          },
+          "session_id": "c9155850-9716-11f1-9843-27af0a0c3303",
+          "activated": true,
+          "verificationStatus": "NOT_VERIFIED",
+          "groups": [],
+          "restricted_actions": {
+            "INIT_BET": false,
+            "INIT_DEPOSIT": false,
+            "INIT_WITHDRAWAL": false
+          },
+          "tawk_hash": null,
+          "tawk_id": null,
+          "type": "test",
+          "active_bonus": 1,
+          "gdpr_marketing": true,
+          "limits": {
+            "deposit": {
+              "drop": "2025-05-27 23:59:59",
+              "start": "2025-05-27 00:00:00",
+              "amount": 100,
+              "period": "day",
+              "changes": null,
+              "created_at": 1748266189000,
+              "updated_at": 1748266189000
+            },
+            "losses": [],
+            "wager": [],
+            "session": null,
+            "self_exclude": null
+          },
+          "activated_by_email": true,
+          "session_limit": {
+            "expire": null,
+            "value": null,
+            "locked": false
+          },
+          "cash_crab": {
+            "cash_crab_attempts": 1,
+            "assigned_today": false
+          },
+          "till_the_end_of_the_day": 39643622,
+          "milliseconds_till_next_week": 298843621,
+          "sessions_info": {
+            "sessionId": "c9155850-9716-11f1-9843-27af0a0c3303",
+            "previous": "2026-08-13 12:56:58",
+            "previous_closed": null,
+            "current": "2026-08-13 12:59:14",
+            "previous_ts": 1786625818,
+            "current_ts": 1786625954,
+            "previous_closed_ts": null,
+            "current_platform": "desktop",
+            "previous_platform": "desktop",
+            "session_time": 2,
+            "auth_type": "login",
+            "previous_ip": "74.221.138.175",
+            "previous_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+            "is_first_session": false
+          },
+          "features": {
+            "mask": 0,
+            "achieves": 8,
+            "allowed_mask": []
+          },
+          "coins": 7,
+          "total_earned_coins": 0,
+          "pending_withdrawals": 0,
+          "requiredFields": [],
+          "surveys_status": {},
+          "sessionToken": "QlROX0VHT1JTVEcxMTg6YzkxNTU4NTAtOTcxNi0xMWYxLTk4NDMtMjdhZjBhMGMzMzAz",
+          "server_time_ts": 1786625956407,
+          "has_last_played": true,
+          "has_favorites": true,
+          "email_guid": "15183173_betinia@emailsreg.com",
+          "level_v2": 1,
+          "level_v2_label": "bronze",
+          "fortune_coins": 0,
+          "diffUserAndServerTime": -40
+        },
+        "playerRef": "s**************8@emailsreg.com",
+        "firstName": "ndjsn",
+        "gender": "M",
+        "country": "FI",
+        "currency": "EUR",
+        "language": "en",
+        "memberSince": "2025-05-08 09:10:31",
+        "accountType": "test",
+        "verificationStatus": "NOT_VERIFIED",
+        "balance": 36.27,
+        "activeBonus": 1,
+        "bonus": {
+          "casino": 10,
+          "sport": 0,
+          "freespinRounds": 0,
+          "freespinRoundsPlayed": 0
+        },
+        "coins": 7,
+        "totalEarnedCoins": 0,
+        "fortuneCoins": 0,
+        "level": 1,
+        "levelLabel": "bronze",
+        "levelPct": 0,
+        "levelName": "Beginner",
+        "loyalty": 0,
+        "gamification": {
+          "level": 1,
+          "experience": 0,
+          "experienceToNextLevel": 0,
+          "completedLevelPercent": 0,
+          "nextLevel": 0
+        },
+        "achievements": {
+          "earned": 1,
+          "total": 61,
+          "readyToEarn": 6
+        },
+        "hasLastPlayed": true,
+        "hasFavorites": true,
+        "activeBonuses": [
+          {
+            "name": "Opt-in Weekly Reload Bonus",
+            "type": "freespin",
+            "amount": 50,
+            "currency": "EUR",
+            "status": "new",
+            "wagerRequired": 40,
+            "expiresAt": "2026-08-20 08:18:18",
+            "game": "Big Bass Splash"
+          },
+          {
+            "name": "100% First deposit bonus",
+            "type": "casino",
+            "amount": 10,
+            "currency": "EUR",
+            "status": "active",
+            "wagerRequired": 35,
+            "expiresAt": "2026-08-20 10:18:48"
+          }
+        ],
+        "recentGames": [
+          {
+            "name": "Sizzling Eggs",
+            "alias": "sizziling-eggs",
+            "brand": "Wazdan",
+            "tags": [
+              "html5"
+            ]
+          },
+          {
+            "name": "Premier Joker Cash Spree",
+            "alias": "premier-joker-cash-spree",
+            "brand": "Games Global",
+            "tags": [
+              "new",
+              "html5"
+            ]
+          },
+          {
+            "name": "Football Thrill",
+            "alias": "football-thrill",
+            "brand": "Amusnet",
+            "tags": [
+              "new",
+              "html5"
+            ]
+          },
+          {
+            "name": "Sweet Bonanza",
+            "alias": "sweet-bonanza-version1",
+            "brand": "Pragmatic",
+            "tags": [
+              "html5"
+            ]
+          },
+          {
+            "name": "Sport",
+            "alias": "sport",
+            "brand": "Betin",
+            "tags": [
+              "html5"
+            ]
+          },
+          {
+            "name": "7 & Fruits Rush",
+            "alias": "7-and-fruits-rush-v1",
+            "brand": "Platipus",
+            "tags": [
+              "new",
+              "html5"
+            ]
+          }
+        ],
+        "favoriteGames": [
+          {
+            "name": "Speed Baccarat",
+            "alias": "speed-baccarat-v4",
+            "brand": "Amusnet",
+            "tags": [
+              "new",
+              "jackpot",
+              "html5"
+            ]
+          },
+          {
+            "name": "7 & Fruits Rush",
+            "alias": "7-and-fruits-rush-v1",
+            "brand": "Platipus",
+            "tags": [
+              "new",
+              "html5"
+            ]
+          },
+          {
+            "name": "Lord of the Keys",
+            "alias": "lord-of-the-keys-v1",
+            "brand": "Platipus",
+            "tags": [
+              "new",
+              "html5"
+            ]
+          }
+        ],
+        "recentActivity": [
+          {
+            "type": "win",
+            "game": "7 & Fruits Rush",
+            "description": "7 & Fruits Rush",
+            "amount": 0,
+            "currency": "EUR",
+            "date": "2026-08-13T10:26:32.000Z"
+          },
+          {
+            "type": "bet",
+            "game": "7 & Fruits Rush",
+            "description": "7 & Fruits Rush",
+            "amount": 0.5,
+            "currency": "EUR",
+            "date": "2026-08-13T10:26:31.000Z"
+          },
+          {
+            "type": "win",
+            "game": "7 & Fruits Rush",
+            "description": "7 & Fruits Rush",
+            "amount": 0,
+            "currency": "EUR",
+            "date": "2026-08-13T10:26:28.000Z"
+          },
+          {
+            "type": "bet",
+            "game": "7 & Fruits Rush",
+            "description": "7 & Fruits Rush",
+            "amount": 0.5,
+            "currency": "EUR",
+            "date": "2026-08-13T10:26:28.000Z"
+          },
+          {
+            "type": "win",
+            "game": "7 & Fruits Rush",
+            "description": "7 & Fruits Rush",
+            "amount": 0,
+            "currency": "EUR",
+            "date": "2026-08-13T10:26:24.000Z"
+          },
+          {
+            "type": "bet",
+            "game": "7 & Fruits Rush",
+            "description": "7 & Fruits Rush",
+            "amount": 0.5,
+            "currency": "EUR",
+            "date": "2026-08-13T10:26:23.000Z"
+          },
+          {
+            "type": "loss",
+            "game": "Sport",
+            "description": "Sport PreLive bet (Multiple)",
+            "amount": 0,
+            "currency": "EUR",
+            "date": "2026-08-11T17:58:39.000Z"
+          },
+          {
+            "type": "win",
+            "game": "Sugar Rush 1000",
+            "description": "Sugar Rush 1000",
+            "amount": 0.08,
+            "currency": "EUR",
+            "date": "2026-08-10T10:39:50.000Z"
+          },
+          {
+            "type": "bet",
+            "game": "Sugar Rush 1000",
+            "description": "Sugar Rush 1000",
+            "amount": 0.2,
+            "currency": "EUR",
+            "date": "2026-08-10T10:39:48.000Z"
+          },
+          {
+            "type": "bet",
+            "game": "Sugar Rush 1000",
+            "description": "Sugar Rush 1000",
+            "amount": 0.2,
+            "currency": "EUR",
+            "date": "2026-08-10T10:39:26.000Z"
+          }
+        ]
+      },
+      "configuredAt": "2026-08-13T12:59:20.461Z",
+      "message": "what is my last bet ?",
+      "timestamp": "2026-08-13T12:59:34.831Z"
+    },
+    "webhookUrl": "https://n8n-ai-dev-webhook.insystems.io/webhook/84177685-e5e8-4b51-8482-b55cadfd74d6",
+    "executionMode": "production"
+  }
+]
